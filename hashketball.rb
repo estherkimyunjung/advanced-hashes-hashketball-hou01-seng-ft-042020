@@ -212,7 +212,6 @@ def player_stats(player_name)
 end
 
 def big_shoe_rebounds
-  
   biggest_shoe_size = []
   game_hash.collect do |location, team_data|
     team_data.collect do |attribute, data|
